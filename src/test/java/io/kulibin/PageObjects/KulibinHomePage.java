@@ -1,14 +1,9 @@
 package io.kulibin.PageObjects;
 
 import core.BrowserFactory;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static core.BrowserFactory.getDriver;
 
 
 public class KulibinHomePage extends BasePage {
@@ -22,19 +17,22 @@ public class KulibinHomePage extends BasePage {
     private WebElement grinders;
     @FindBy(linkText = "Шуруповерты")
     private WebElement screwdrivers;
+    @FindBy(css = "a[href='/catalog/']")
+    private WebElement catalog;
+
+    Actions builder = new Actions(BrowserFactory.getDriver());
 
 
     public PageOfDrills goToDrills() {
-        Actions builder = new Actions(getDriver());
+        catalog.click();
         builder.moveToElement(powerTool);
         builder.perform();
         drills.click();
-
         return new PageOfDrills();
     }
 
     public PageOfPerforators goToPerforators() {
-        Actions builder = new Actions(getDriver());
+        catalog.click();
         builder.moveToElement(powerTool);
         builder.perform();
         perforators.click();
@@ -43,7 +41,7 @@ public class KulibinHomePage extends BasePage {
     }
 
     public PageOfGrinders goToGrinders() {
-        Actions builder = new Actions(getDriver());
+        catalog.click();
         builder.moveToElement(powerTool);
         builder.perform();
         grinders.click();
@@ -52,7 +50,7 @@ public class KulibinHomePage extends BasePage {
     }
 
     public PageOfScrewdriver goToScrewdrivers() {
-        Actions builder = new Actions(getDriver());
+        catalog.click();
         builder.moveToElement(powerTool);
         builder.perform();
         screwdrivers.click();
@@ -62,24 +60,4 @@ public class KulibinHomePage extends BasePage {
 
 }
 
-
- /* public void openPageOfTool(String name){
-        Actions builder = new Actions(BrowserFactory.getDriver());
-        builder.moveToElement(powerTool);
-        builder.perform();
-        if ("Дрели".equals(name)) {
-            drills.click();
-        } else if ("Перфораторы".equals(name)) {
-            perforators.click();
-        } else if ("Болгарки".equals(name)) {
-            grinders.click();
-        } else if ("Шуруповерты".equals(name)) {
-            screwdrivers.click();
-            return new
-        } else {
-            System.out.println("error");
-        }
-
-        screwdrivers.click();
-    }*/
 

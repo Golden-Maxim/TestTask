@@ -10,16 +10,16 @@ import java.util.List;
 
 import static java.lang.Integer.parseInt;
 
-public class PageOfGrinders extends BasePage {
+public class PageOfGrinders extends GridPage {
     @FindBy(xpath = "//span[@class = 'item_old_price old-price']")
     private WebElement oldPrice;
     @FindBy(xpath = ".//span[@class='price']")
     private WebElement promoPrice;
 
-    public void checkDiscountIsCorrect() {
+    public void checkThatDiscountIsCorrect() {
         List<Product> products = new ArrayList<Product>();
 
-        for (WebElement singleContainer : productContainers) {
+        for (WebElement singleContainer : getProductContainer()) {
             products.add(new Product(singleContainer));
         }
         for (Product product : products) {
@@ -30,7 +30,7 @@ public class PageOfGrinders extends BasePage {
                 int expectedPrice = x - c;
                 int actualPrice = parseInt(product.getPrice().replaceAll("[^0-9]", "").trim());
 
-                Assert.assertTrue(expectedPrice == actualPrice, product.getName());
+                Assert.assertTrue(expectedPrice == actualPrice, "Name:\t" + product.getName() + "\tPrice should be: " + expectedPrice + " грн\t");
             }
         }
 

@@ -4,7 +4,9 @@ import core.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import static core.BrowserFactory.getDriver;
 
@@ -21,7 +23,6 @@ public class BaseTest {
         WebDriverWait wait = new WebDriverWait(BrowserFactory.getDriver(), 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='custom-close']")));
         getDriver().findElement(By.xpath("//span[@class='custom-close']")).click();
-
     }
 
     @AfterSuite

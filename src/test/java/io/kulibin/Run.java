@@ -7,32 +7,32 @@ import org.testng.annotations.Test;
 public class Run extends BaseTest {
 
     @Test()
-    public void checkPromoPriceTest() throws InterruptedException {
+    public void checkPromoPrice() {
         new KulibinHomePage()
                 .goToDrills()
-                .lookForProductWithTicket();
+                .checkPromoPriceInProductWithPromotionalTicket();
 
     }
 
     @Test
-    public void checkPriceOfPerforatorsTest() {
+    public void checkPriceOfPerforators() {
         new KulibinHomePage()
                 .goToPerforators()
                 .checkPriceOfPerforators(2);
     }
 
     @Test
-    public void showNameAmericanProductTest() {
+    public void showNameAmericanProduct() {
         new KulibinHomePage()
                 .goToScrewdrivers()
                 .showNameOfProductWithUsaFlag(3);
     }
 
     @Test
-    public void calculatePromotionalPriceTest() {
+    public void calculatePromotionalPrice() {
         new KulibinHomePage()
                 .goToGrinders()
-                .checkDiscountIsCorrect();
+                .checkThatDiscountIsCorrect();
     }
 
 }

@@ -8,15 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
-public class PageOfScrewdriver extends BasePage {
+public class PageOfScrewdriver extends GridPage {
     @FindBy(className = "next")
     private WebElement nextPage;
 
     public void showNameOfProductWithUsaFlag(int countOfPage) {
         List<Product> products = new ArrayList<Product>();
         for (int i = 0; i < countOfPage; i++) {
-            for (WebElement singleContainer : productContainers) {
+            for (WebElement singleContainer : getProductContainer()) {
                 products.add(new Product(singleContainer));
             }
             nextPage.click();

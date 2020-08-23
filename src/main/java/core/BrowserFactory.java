@@ -38,8 +38,6 @@ public class BrowserFactory {
 
        instance.manage().window().maximize();
        instance.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-       //instance.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-
 
        return instance;
     }

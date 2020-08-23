@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b12e06-aef0-489c-a4bc-e4eb54e2a974" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/GridPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c4cb7fd3cbe55398f00dff7985fad5b324539de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c4cb7fd3cbe55398f00dff7985fad5b324539de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/ContainerOfProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/KulibinHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/KulibinHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfDrills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfDrills.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfGrinders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfGrinders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfPerforators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfPerforators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfScrewdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/PageOfScrewdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/PageObjects/ProductPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/kulibin/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/kulibin/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/BrowserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Helpers/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helpers/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/ContainerOfProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/KulibinHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/KulibinHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfDrills.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfDrills.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfGrinders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfGrinders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfPerforators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfPerforators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfScrewdriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/PageOfScrewdriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/PageObjects/ProductPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/kulibin/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/kulibin/Run.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +65,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="E:/Epam/TestTask-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -47,8 +75,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="core" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fkca2\IdeaProjects\TemerixTestTask\src\test\java\io\kulibin\PageObjects" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Run.checkPromoPriceTest">
+  <component name="RunManager" selected="TestNG.Run">
     <configuration name="Run" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TemerixTestTask" />
       <extension name="coverage">
@@ -84,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run.checkPromoPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Run.checkPromoPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TemerixTestTask" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +125,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.kulibin" />
       <option name="MAIN_CLASS_NAME" value="io.kulibin.Run" />
-      <option name="METHOD_NAME" value="checkPromoPriceTest" />
+      <option name="METHOD_NAME" value="checkPromoPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run.isAvailabilityOfPromoPriceAndOldPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TemerixTestTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.kulibin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.kulibin" />
+      <option name="MAIN_CLASS_NAME" value="io.kulibin.Run" />
+      <option name="METHOD_NAME" value="isAvailabilityOfPromoPriceAndOldPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,31 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run.showNameAmericanProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TemerixTestTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.kulibin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.kulibin" />
-      <option name="MAIN_CLASS_NAME" value="io.kulibin.Run" />
-      <option name="METHOD_NAME" value="showNameAmericanProductTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Run.checkPromoPriceTest" />
         <item itemvalue="TestNG.Run" />
-        <item itemvalue="TestNG.Run.showNameAmericanProductTest" />
         <item itemvalue="TestNG.Run.calculatePromotionalPrice" />
+        <item itemvalue="TestNG.Run.checkPromoPrice" />
         <item itemvalue="TestNG.Run.showNameAmericanProduct" />
+        <item itemvalue="TestNG.Run.isAvailabilityOfPromoPriceAndOldPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +190,19 @@
       <option name="presentableId" value="Default" />
       <updated>1597768914306</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;a few changes&quot;">
+      <created>1598183482987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598183482987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;a few changes&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;a few changes&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Project_Structure" timestamp="1597771694430">
@@ -178,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="271" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1598116005857" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598097757016">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598191746310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598097757016" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598191746310" />
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1597962916835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,34 +233,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="756" y="166" width="488" height="581" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598143456557" />
-    <state x="418" y="6" key="CommitChangelistDialog2" timestamp="1598183455387">
+    <state x="418" y="6" key="CommitChangelistDialog2" timestamp="1598183481563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598183455387" />
+    <state x="418" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598183481563" />
     <state width="936" height="466" key="DebuggerActiveHint" timestamp="1598108361570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="936" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1598108361570" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598183045672">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598191683745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598183045672" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1598183436479">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598191683745" />
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom" timestamp="1598225610150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598183436479" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1598183436479">
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598225610150" />
+    <state width="1320" height="191" key="GridCell.Tab.0.center" timestamp="1598225610149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598183436479" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1598183436479">
+    <state width="1320" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598225610149" />
+    <state width="1320" height="191" key="GridCell.Tab.0.left" timestamp="1598225610149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598183436479" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1598183436479">
+    <state width="1320" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598225610149" />
+    <state width="1320" height="191" key="GridCell.Tab.0.right" timestamp="1598225610150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598183436479" />
+    <state width="1320" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598225610150" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1598144563783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,10 +277,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598144563783" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1598168927090">
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1598190175724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598168927090" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1598190175724" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598183489514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598183489514" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1598213128467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598213128467" />
     <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598013759882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,10 +301,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1598010514680" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598109981693">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598217110137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598109981693" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598217110137" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598178836800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

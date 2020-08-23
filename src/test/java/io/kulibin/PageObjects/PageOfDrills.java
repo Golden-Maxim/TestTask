@@ -3,19 +3,29 @@ package io.kulibin.PageObjects;
 import Helpers.Product;
 import core.BrowserFactory;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
+import static core.BrowserFactory.getDriver;
 
-public class PageOfDrills extends ContainerOfProduct {
-   /* @FindBy(xpath = "//div[@class = 'item-print-block']//div[@class = 'item-print-block'] //span[@class = 'item_old_price old-price']")
-    private WebElement promoPrice;*/
-    private By promoPrice = By.xpath("//div[@class = 'item-print-block']//div[@class = 'item-print-block'] //span[@class = 'item_old_price old-price']");
+
+public class PageOfDrills extends GridPage {
+
+    @FindBy(xpath = "//div[@class = 'price-row']")
+    private WebElement cardOfProdut;
+
+    String promoPrice;
+    String price;
+
+    private static final String promoPriceTag = "item_old_price old-price";
+    private static final String priceTag = "price";
+
+    public PageOfDrills() {
+        super();
+    }
 
     public int selectRandomProduct(int x) {
         Random rand = new Random();
@@ -23,39 +33,26 @@ public class PageOfDrills extends ContainerOfProduct {
         return randomProduct;
     }
 
-    public void lookForProductWithTicket() throws InterruptedException {
-        List<Product> products = new ArrayList<Product>();
-        List<Product> productsWithTicket = new ArrayList<Product>();
-        ContainerOfProduct containerOfProduct = new ContainerOfProduct();
-
-        for (WebElement singleContainer : containerOfProduct.getProductContainer()) {
-            products.add(new Product(singleContainer));
-        }
-
-        for (Product product : products) {
-
+    public void checkPromoPriceInProductWithPromotionalTicket() {
+        for (int i = 0; i < getProductContainer().size(); i++) {
+            WebElement productContainer = getProductContainer().get(i);
+            Product product = new Product(productContainer);
             if (product.getStickerOfDiscount() != null) {
-               product.getLinkToProduct().click();
-               Thread.sleep(5000);
-                System.out.println(BrowserFactory.getDriver().findElement(promoPrice).getText());
-               BrowserFactory.getDriver().navigate().back();
-                Thread.sleep(5000);
+                product.getLinkToProduct().click();
 
-            }else {continue;}
+                if (cardOfProdut.getAttribute("innerHTML").contains(promoPriceTag)) {
+                    promoPrice = BrowserFactory.getDriver().findElement(By.xpath("//div[@class='item-text']//span[contains(@class,'item_old_price old-price')]")).getText();
+                } else promoPrice = null;
+
+                if (cardOfProdut.getAttribute("innerHTML").contains(priceTag)) {
+                    price = BrowserFactory.getDriver().findElement(By.xpath("//div[@class='item-text']//span[@class='price']")).getText();
+                } else price = null;
+
+                Assert.assertNotNull(price);
+                Assert.assertNotNull(promoPrice);
+                getDriver().navigate().back();
+            }
         }
-
-        }
-
-
-            /*products.get(selectRandomProduct(products.size()-1)).getLinkToProduct().click();
-            Thread.sleep(5000);
-        System.out.println(BrowserFactory.getDriver().findElement(By.xpath("//div[contains(@class,'price-row price-holder')]//span[@class = 'old-price']")).getText());
-*/
-
-
     }
 
-
-
-// soft assertion   stick-list__span
-//assertion scope
+}
