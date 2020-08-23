@@ -37,6 +37,7 @@ public class PageOfDrills extends ContainerOfProduct {
             if (product.getStickerOfDiscount() != null) {
                product.getLinkToProduct().click();
                Thread.sleep(5000);
+                System.out.println(BrowserFactory.getDriver().findElement(promoPrice).getText());
                BrowserFactory.getDriver().navigate().back();
                 Thread.sleep(5000);
 
