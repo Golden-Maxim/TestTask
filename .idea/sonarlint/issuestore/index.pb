@@ -21,9 +21,8 @@ R
 "src/test/java/Helpers/Product.java,a\b\ab69b26f20c129f626d8b422f3cbd8c92d959352
 k
 ;src/test/java/io/kulibin/PageObjects/PageOfScrewdriver.java,7\8\7829a2d2a669a1f0137b6d04800ce21b49549830
-e
-5src/test/java/io/kulibin/PageObjects/ProductPage.java,2\8\282759d1586eb43ab7b2bdb64a3d6113093e7106
-l
-<src/test/java/io/kulibin/PageObjects/ContainerOfProduct.java,c\7\c7df917b9c0f0085462febd35ff7b9c828325bb8
 b
 2src/test/java/io/kulibin/PageObjects/GridPage.java,e\1\e1cfe5ec3478cfe80ba957ab3f37ad4f4674146c
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

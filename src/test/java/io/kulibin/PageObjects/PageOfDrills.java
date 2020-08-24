@@ -33,7 +33,8 @@ public class PageOfDrills extends GridPage {
         return randomProduct;
     }
 
-    public void checkPromoPriceInProductWithPromotionalTicket() {
+    public void checkPromoAndOldPriceInProductWithPromotionalTicket(int numberOfProductsForCheck) {
+        int temp = 0;
         for (int i = 0; i < getProductContainer().size(); i++) {
             WebElement productContainer = getProductContainer().get(i);
             Product product = new Product(productContainer);
@@ -50,6 +51,10 @@ public class PageOfDrills extends GridPage {
 
                 Assert.assertNotNull(price);
                 Assert.assertNotNull(promoPrice);
+
+                temp++;
+                if (numberOfProductsForCheck == temp){break;}
+
                 getDriver().navigate().back();
             }
         }

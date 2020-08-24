@@ -10,8 +10,7 @@ public class Run extends BaseTest {
     public void checkPromoPrice() {
         new KulibinHomePage()
                 .goToDrills()
-                .checkPromoPriceInProductWithPromotionalTicket();
-
+                .checkPromoAndOldPriceInProductWithPromotionalTicket(3);
     }
 
     @Test
