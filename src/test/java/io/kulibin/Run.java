@@ -34,4 +34,9 @@ public class Run extends BaseTest {
                 .checkThatDiscountIsCorrect();
     }
 
+    @Test
+    public void test(){
+        new KulibinHomePage().goToDrills().checkRandomProduct();
+
+    }
 }
