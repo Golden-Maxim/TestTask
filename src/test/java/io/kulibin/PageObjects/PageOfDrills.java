@@ -133,7 +133,7 @@ public class PageOfDrills extends GridPage {
                 }
             }
         }*/
-        System.out.println("I wanna to be merged");
+        System.out.println("Conflict");
     }
 
 }
