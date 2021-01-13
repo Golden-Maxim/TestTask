@@ -22,7 +22,6 @@ public class KulibinHomePage extends BasePage {
 
     Actions builder = new Actions(BrowserFactory.getDriver());
 
-
     public PageOfDrills goToDrills() {
         catalog.click();
         builder.moveToElement(powerTool);
