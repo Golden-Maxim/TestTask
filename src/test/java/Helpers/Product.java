@@ -53,7 +53,7 @@ public class Product {
                 stickerOfDiscount.equals(product.stickerOfDiscount) &&
                 linkToProduct.equals(product.linkToProduct);
     }
-
+    
     @Override
     public int hashCode() {
         return Objects.hash(name, price, oldPrice, flag, stickerOfDiscount, linkToProduct);
