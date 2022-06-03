@@ -21,8 +21,6 @@ public class BaseTest {
     public void navigateTo() {
         getDriver().get("https://kulibin.com.ua/");
         WebDriverWait wait = new WebDriverWait(BrowserFactory.getDriver(), 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='custom-close']")));
-        getDriver().findElement(By.xpath("//span[@class='custom-close']")).click();
     }
 
     @AfterSuite
